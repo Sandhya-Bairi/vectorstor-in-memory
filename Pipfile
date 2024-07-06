@@ -8,6 +8,11 @@ langchain = "*"
 pypdf = "*"
 openai = "*"
 black = "*"
+python-dotenv = "*"
+langchain-community = "*"
+tiktoken = "*"
+faiss-cpu = "*"
+langchain-openai = "*"
 
 [dev-packages]
 
