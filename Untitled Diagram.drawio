@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Page-1" id="kZjjDbBZ_k6FFzhVwzEt">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PCw9YXuibsnkFwC_x2AT-2" target="BrNEBv7qrYcHS7FAoPSN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCw9YXuibsnkFwC_x2AT-2" value="Jira tiket&lt;div&gt;- title&lt;/div&gt;&lt;div&gt;-desc&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="100" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-1" target="BrNEBv7qrYcHS7FAoPSN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-1" value="- Understand the text&lt;div&gt;- MerchantId&lt;/div&gt;&lt;div&gt;- transactionId&lt;/div&gt;&lt;div&gt;-errorcode/ms&lt;/div&gt;&lt;div&gt;- TPV revenue&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-3" value="- find if issue has happened&lt;div&gt;- Jira text search&lt;/div&gt;&lt;div&gt;- tools to debug&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="510" y="60" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-5" target="BrNEBv7qrYcHS7FAoPSN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-5" value="All closed Jira tikets&lt;div&gt;- title&lt;/div&gt;&lt;div&gt;-desc&lt;/div&gt;&lt;div&gt;-comments&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="100" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-6" value="Ingestion Pipeline" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-7" value="[text]: [0.2,0.3.]1536]&amp;nbsp; embedding-Ada model by openAI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="188" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-8" target="BrNEBv7qrYcHS7FAoPSN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-8" value="OpenAI ada embed" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-10" target="BrNEBv7qrYcHS7FAoPSN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-10" value="(title+description)Embedding" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-12" target="BrNEBv7qrYcHS7FAoPSN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-12" value="Preprocessing" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-12" target="BrNEBv7qrYcHS7FAoPSN-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-14" target="BrNEBv7qrYcHS7FAoPSN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-14" value="Langchain: split into chunks&lt;div&gt;chunk size 1500, overlap 150&amp;nbsp;&lt;div&gt;GPT-4o- 80k token per min&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- 240k token per min&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-15" target="BrNEBv7qrYcHS7FAoPSN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-15" value="&lt;div&gt;errormessage&lt;/div&gt;&lt;div&gt;errorcomponent&lt;/div&gt;issue root cause&lt;div&gt;issue resolution&lt;/div&gt;&lt;div&gt;issue resolver&lt;/div&gt;&lt;div&gt;- description summ&lt;/div&gt;&lt;div&gt;-resolution summ&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-18" target="BrNEBv7qrYcHS7FAoPSN-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="550" />
+              <mxPoint x="560" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-18" value="VectorDB (Milvus)&lt;div&gt;- ticketID&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-21" value="Retrieval Pipeline" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-22" target="BrNEBv7qrYcHS7FAoPSN-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-22" value="Jira tiket&lt;div&gt;- title&lt;/div&gt;&lt;div&gt;-desc&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="100" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-23" target="BrNEBv7qrYcHS7FAoPSN-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-23" value="Validation" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-25" value="Retrieve Similar tickets" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-28" value="ADa embed (new ticket)" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BrNEBv7qrYcHS7FAoPSN-28" target="BrNEBv7qrYcHS7FAoPSN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-31" value="embedding" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-32" value="Possible Root cause&lt;div&gt;Possible Resolution&lt;/div&gt;&lt;div&gt;Table of Similar tickets:&lt;/div&gt;&lt;div&gt;ticket ID(url)&lt;/div&gt;&lt;div&gt;Simi&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="623" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BrNEBv7qrYcHS7FAoPSN-33" value="Faiss" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
